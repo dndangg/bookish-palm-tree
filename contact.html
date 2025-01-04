@@ -23,7 +23,31 @@
   </nav>
 
   <main>
-    <p>This is the contact page. Put your contact information here!</p>
+    <section class="contact-form">
+      <h2>Want to get more info?</h2>
+      <p> Contact us via
+        Email: brazosballroomdance@gmail.com
+        Phone:
+        Ray: (979) 255-7211
+        Vana: (979) 777-6450
+        Shelly: (979) 393-2411</p>
+    </section>
+
+    <section class="contact-form">
+      <h2>Contact Us</h2>
+      <form action="submit_form.php" method="post">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+        
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+        
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" required></textarea>
+        
+        <button type="submit">Submit</button>
+      </form>
+    </section>
   </main>
 
   <footer>
