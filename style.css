@@ -1,0 +1,22 @@
+/* Style for the body (applies to the entire page) */
+body {
+  background-color: #1010d1;  /* Light background */
+  color: #c41111;  /* Dark text */
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 20px;
+}
+
+/* Style for the header */
+header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/* Style for the footer */
+footer {
+  text-align: center;
+  margin-top: 40px;
+  font-size: 0.8em;
+  color: #777;
+}
