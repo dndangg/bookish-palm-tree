@@ -23,8 +23,8 @@ footer {
 
 /* Style for navigation buttons */
 nav button {
-  background-color: #007acc;  /* Blue background */
-  color: white;               /* White text */
+  background-color: #631954;  /* Blue background */
+  color: rgb(141, 2, 2);               /* White text */
   border: none;               /* No border */
   padding: 10px 20px;         /* Padding inside the buttons */
   margin: 5px;                /* Space between buttons */
