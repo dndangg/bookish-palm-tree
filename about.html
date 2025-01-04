@@ -5,24 +5,48 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>About Us</title>
   <link rel="stylesheet" href="assets/css/style.css">
+  <style>
+    .center {
+      text-align: center;
+      border: 3px solid green;
+    }
+    body, html {
+      margin: 0;
+      padding: 0;
+      width: 100%;
+      height: 100%;
+    }
+    .banner {
+      width: 100vw;
+      height: 25vh; /* 25% of the viewport height */
+      background-image: url(https://i.postimg.cc/QMDL1CcY/360-F-218185587-P4zitu-Dt-WJOf-Cl-UKL6mer-I0-Bg-LMIxoe-C.jpg);
+      background-size: cover;
+      background-position: center;
+      position: relative; /* Changed to relative */
+      top: 0;
+      left: 0;
+    }
+
+  </style>
 </head>
 <body>
-  <header>
-    <h1>About Us</h1>
-  </header>
+  <div class="banner">
+    <header>
+      <h1>About Us</h1>
+      <nav>
+        <button onclick="location.href='index.html'">Home</button>
+        <button onclick="location.href='about.html'">About</button>
+        <button onclick="location.href='ballroomdancing.html'">Ballroom Dancing</button>
+        <button onclick="location.href='calendar.html'">Calendar</button>
+        <button onclick="location.href='weddings.html'">Weddings</button>
+        <button onclick="location.href='essentricstretch.html'">Essentric Stretch Classes</button>
+        <button onclick="location.href='dancefitness.html'">Dance Fitness</button>
+        <button onclick="location.href='contact.html'">Contact</button>
+      </nav>
+    </header>
+  </div>
 
-  <nav>
-    <button onclick="location.href='index.html'">Home</button>
-    <button onclick="location.href='about.html'">About</button>
-    <button onclick="location.href='ballroomdancing.html'">Ballroom Dancing</button>
-    <button onclick="location.href='calendar.html'">Calendar</button>
-    <button onclick="location.href='weddings.html'">Weddings</button>
-    <button onclick="location.href='essentricstretch.html'">Essentric Stretch Classes</button>
-    <button onclick="location.href='dancefitness.html'">Dance Fitness</button>
-    <button onclick="location.href='contact.html'">Contact</button>
-  </nav>
-
-  <main>
+  <main class="content">
     <p>This is the about page. Here you can put information about your website.</p>
   </main>
 
