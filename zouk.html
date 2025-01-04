@@ -9,25 +9,59 @@
 <body>
   <header>
     <h1>Zouk</h1>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="ballroomdancing.html">Ballroom Dancing</a></li>
+        <li><a href="zouk.html">Zouk</a></li>
+        <li><a href="weddings.html">Weddings</a></li>
+        <li><a href="essentricstretch.html">Essentric Stretch Classes</a></li>
+        <li><a href="dancefitness.html">Dance Fitness</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
   </header>
 
-  <nav>
-    <button onclick="location.href='index.html'">Home</button>
-    <button onclick="location.href='about.html'">About</button>
-    <button onclick="location.href='ballroomdancing.html'">Ballroom Dancing</button>
-    <button onclick="location.href='zouk.html'">Zouk</button>
-    <button onclick="location.href='weddings.html'">Weddings</button>
-    <button onclick="location.href='essentricstretch.html'">Essentric Stretch Classes</button>
-    <button onclick="location.href='dancefitness.html'">Dance Fitness</button>
-    <button onclick="location.href='contact.html'">Contact</button>
-  </nav>
+  <section class="hero">
+    <img src="assets/images/zouk-hero.jpg" alt="Zouk Dance">
+    <div class="hero-text">
+      <h2>Welcome to the World of Zouk</h2>
+      <p>Experience the rhythm and passion of Zouk dancing.</p>
+    </div>
+  </section>
 
   <main>
-    <p>This is the contact page. Put your contact information here!</p>
+    <section class="zouk-info">
+      <h2>About Zouk</h2>
+      <p>Zouk is a genre of dance originating from the Caribbean islands. It is known for its smooth and flowing movements, often danced to a slow- to medium-tempo music.</p>
+      <p>Join our classes to learn more about this beautiful dance form and become a part of our vibrant community.</p>
+    </section>
+
+    <section class="contact-form">
+      <h2>Contact Us</h2>
+      <form action="submit_form.php" method="post">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+        
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+        
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" required></textarea>
+        
+        <button type="submit">Submit</button>
+      </form>
+    </section>
   </main>
 
   <footer>
     <p>&copy; 2025 My Simple Website</p>
+    <div class="social-media">
+      <a href="https://facebook.com" target="_blank">Facebook</a>
+      <a href="https://twitter.com" target="_blank">Twitter</a>
+      <a href="https://instagram.com" target="_blank">Instagram</a>
+    </div>
   </footer>
 </body>
 </html>
